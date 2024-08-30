@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px 10px 0 0;
+}
+
+.cardWrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.bnt{
+  background-color:#00BCD4;
+  border-radius:5px;
+  padding:10px 20px 10px 20px;
+  font-weight:bold;
+  margin-top:20px;
+}
